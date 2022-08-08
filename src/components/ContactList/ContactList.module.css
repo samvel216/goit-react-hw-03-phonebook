@@ -1,0 +1,13 @@
+.list {
+  margin-top: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}

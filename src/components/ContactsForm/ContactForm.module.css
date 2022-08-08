@@ -1,0 +1,24 @@
+.form {
+  margin: 0 auto;
+  padding: 6px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.input {
+  width: 80%;
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 3px;
+  border: 1.5px solid rgba(50, 49, 49, 0.442);
+}
+.btn {
+  width: 120px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
