@@ -68,13 +68,13 @@ export class App extends Component {
   }
 
   render() {
-    const { filter } = this.state;
+    const { filter, contacts } = this.state;
     const filterMassive = this.renderFilter();
 
     return (
       <>
         <h1>Phonebook</h1>
-        <ContactForm onSubmit={this.chancheContact} constacts={this.state.contacts} />
+        <ContactForm onSubmit={this.chancheContact} constacts={contacts} />
 
         <h2>Contacts</h2>
         <Filter value={filter} onChange={this.onChangeFilter} />
